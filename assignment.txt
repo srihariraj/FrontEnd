@@ -1,0 +1,44 @@
+create webpage
+
+in lightblue background
+text color: black
+create a raw paragraph
+use form to get name, email, password, retype password
+use table to structure the form
+create a paragraph
+use div to isolate the form from usual text and other content
+create list of 10 elements or fruits in ordered list of type A
+
+
+create webpage 
+
+similar to wikipedia
+
+should have title
+should have some lorem ipsum text content of 200 words
+should have a table of contents
+
+lightblue
+sl      initial values      secondary values =>light green color
+1       100                 250
+2       200                 300
+3       300                 350
+details => Explanation
+paragraph => this table explains about the initial and final values of readings
+
+develop a webpage of your own style, it should be somewhat attractive. but in your own style. 
+explain how you planned and worked on it.
+use almost all tags and css properties if possible
+
+
+use GRID or FLEX, FLOAT
+design a registration form
+
+                                registration
+                        name :______________________
+                        email :_____________________
+                        password :__________________
+                        retype password :___________
+                        phone :_____________________
+
+                        clear                 submit

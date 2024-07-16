@@ -1,0 +1,87 @@
+<html>
+
+	<head>
+		<title>Tables</title>
+		<!-- <meta name="viewport" initial-scale="1.0"> -->
+		<style>
+			.buttons{
+				font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			}
+			div{
+				background-color: #4CAF50;
+				border-width: 2px;
+				display: grid;
+			}
+			#clear{
+				background-color: #FF0000;
+			}
+			.grid-container {
+  				display: grid;	
+  				grid-template-columns: max-content max-content max-content max-content max-content max-content;
+				grid-template-rows: min-content min-content min-content max-content;
+				row-gap: 10px;
+				column-gap: 10px;
+  				background-color: #d6edff;
+  				padding: 10px;
+			}
+			.grid-item {
+ 				background-color: rgba(255, 255, 255, 0.8);
+  				border: 1px solid rgba(0, 0, 0, 0.8);
+  				padding: 20px;
+  				font-size: 30px;
+  				text-align: right;
+			} 
+			
+		</style>
+	</head>
+
+	<body>
+
+		<style>
+			.inputs{
+				background-color: yellow;
+				font-family: monospace;
+			}
+			#submitButton{
+				background-color: #00ff00;
+			}
+		</style>
+		<h3>This is the page for displaying Tables</h3>
+		<table border="2px">
+
+			 <colgroup>
+    			<col  style="background-color:green">
+    			<col span= 5 style="background-color:lightblue">
+
+  			</colgroup>
+			<caption>Forms</caption>
+			<form method="post">
+			<tr bgcolor=#889867>
+				<td><label>Email: </label></td>
+				<td><input type="text", class="inputs"></input></td>
+				<td><label>Password: </label></td>
+				<td><input type="password", class="inputs"></input></td>
+			</tr>
+			<tr>
+				<td><button type="reset", class="buttons" id="clear">Clear content</button></td>
+				<td><button type="submit", class="buttons" id="submitButton">upload</button></td>
+			</tr>
+		</form>
+
+		</table>
+		<div class="grid-container">
+			<div class="grid-item">1</div>
+			<div class="grid-item">2</div>
+			<div class="grid-item">3</div>  
+			<div class="grid-item">4</div>
+			<div class="grid-item">5</div>
+			<div class="grid-item">6</div>  
+			<div class="grid-item">7</div>
+			<div class="grid-item">8</div>
+			<div class="grid-item">9</div>  
+		  </div>
+
+	</body>
+
+
+</html>

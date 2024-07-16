@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RegistrationForm</title>
+  <link rel="stylesheet" href="../CSS/sample.css" </head>
+
+<body class="inputs">
+  <div class="heading">
+    <h1>Login360</h1>
+  </div>
+  <div class="inputbox">
+    <form class="forms" action="register.php" method="post">
+      <table class="tables">
+        <h1>Registration</h1>
+        <tr>
+          <td>Name:</td>
+          <td>
+            <input class="input one" type="text" name="name" placeholder="Enter your name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td>
+            <input class="input two" type="email" name="email" placeholder="Enter your email" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td>
+            <input class="input three" type="password" name="password" placeholder="Enter your password" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Retype password:</td>
+          <td>
+            <input class="input four" type="password" name="cpassword" placeholder="Confirm your password" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td>
+            <input class="input five" type="tel" name="phnumber" placeholder="contact number" required />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <input class="input six" type="submit" name="submit" value="Register" />
+      <input class="clear" type="reset" name="clear" value="clear" />
+    </form>
+  </div>
+</body>
+
+</html>

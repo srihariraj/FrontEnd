@@ -1,0 +1,18 @@
+Front End Development
+June 29 2024
+class 1
+
+Introduction:
+
+HTML -> basic Structure in website
+CSS -> gives styles and designs
+JS -> functionality
+	React.js -> Library
+
+
+js->
+do some task
+
+React.js -> 
+do task in optimised way
+	

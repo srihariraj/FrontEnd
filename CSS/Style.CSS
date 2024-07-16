@@ -1,0 +1,22 @@
+
+@font-face {
+	font-family: "Transformers";
+	src: url("transformers_movie/Transformers Movie.ttf");
+}
+@font-face{
+	font-family: "Venom";
+	src: url("venom/VENOM.ttf");
+}
+@font-face{
+	font-family: "Chilling";
+	src: url("sunday_chillin/Sunday Chillin.ttf");
+}
+
+.colorchange:hover{
+	background-color: white;
+/*	font-style: italic;*/
+	font-family: "Venom";
+	font-weight: 1;
+	color: red;
+	font-size: 45px;
+}
