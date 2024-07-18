@@ -1,0 +1,15 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.parent div{
+    background-color: lightcoral;
+    border: 2px solid rgb(0,0,0);
+    height:100px;
+    width: 18%;
+    margin-top:3px;
+    margin-bottom: 3px;
+}

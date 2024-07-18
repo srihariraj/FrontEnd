@@ -1,61 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRID</title>
-    <style>
-        .parent{
-            background-color: yellow;
-            color: red;
-            display: flex;
-            gap: 10px;
-            flex-direction:row;
-           height: 500px;
-           justify-content: center;
-            justify-items: center;
-           align-items: center;
-        }
-        .one{
-            grid-area: one;
-            background-color: purple;
-            color:white;
-        }
-        .two{
-            grid-area: two;
-            background-color: lightblue ;
-            
-        }
-       
 
-        .child:nth-child(odd){
-            font-family: monospace;
-            font-size: 30px;
-            text-align: center;
-            
-            background-color: lime;
-        }
-        .child:nth-child(even){
-            font-family: monospace;
-            font-size: 30px;
-            text-align: center;
-            background-color: rgb(0, 170, 255);
-        }
-
-    </style>
+    <link rel="stylesheet" href="../CSS/grid.css">
 </head>
+
 <body>
-    <section class="parent">
-        <section class ="child zero">
-            <h1>Login Form</h1>
-        </section>
-        <section class="child one">
-            <input type = "text" placeholder="Name"/>
-        </section>
-        <section class="child two">
-            <input type = "password" placeholder="Password"/>
-        </section>
-       
-    </section>
+    <div class="parent">
+        <div class="head">Web Development</div>
+        <div class="main">Main</div>
+        <div class="leftside">Topics</div>
+        <div class="rightside">References</div>
+        <div class="foot">External links</div>
+
+
+    </div>
 </body>
+
 </html>
