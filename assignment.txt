@@ -42,3 +42,15 @@ design a registration form
                         phone :_____________________
 
                         clear                 submit
+
+
+create a webpage:
+
+use grid
+heading of the webpage in h1
+create a paragraph using lorem
+index column in leftside
+content of the webpage in middle paragraph with lorem ipsum
+rightside contains refernce column  with link for index.html
+footer contains your name, batch, login360 copyright symbol, trademark
+color for header, footer in light grey
