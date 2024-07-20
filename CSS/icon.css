@@ -1,9 +1,22 @@
-.icon{
-    background: url("droid.png");
-    height: 30px;
-    width: 30px;
+
+i{
+    font-size: 30px;
+    color:rgb(0, 30, 255);
+}
+p{
+    border: 3px solid black;
+}
+.flexcontainer{
+    display: flex;
+    gap:10px;
+}
+.search {
+    border-radius: 20px;
+}
+input::placeholder{
+    color:red;
     
-    background-size: cover;
-    float: left;
-  
+}
+input{
+    padding:5px;
 }

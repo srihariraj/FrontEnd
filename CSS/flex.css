@@ -1,15 +1,17 @@
 .parent{
-    display: flex;
-    flex-direction: row;
-   
-    justify-content: space-between;
-    flex-wrap: wrap;
+   display:flex;
+   gap:3px;
+   flex-direction: column;
+    justify-content: center;
+    align-items: end;
+   background-color: yellow;
+   height:300px;
+
 }
-.parent div{
-    background-color: lightcoral;
-    border: 2px solid rgb(0,0,0);
-    height:100px;
-    width: 18%;
-    margin-top:3px;
-    margin-bottom: 3px;
+.child{
+   border: 2px  solid black;
+    text-align: center;
+    color:green;
+    height:30px;
+    width: fit-content;
 }

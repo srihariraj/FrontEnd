@@ -1,0 +1,24 @@
+body *{
+    text-indent: 50px;
+}
+
+.para1{
+    font-family: "Edu AU VIC WA NT Hand";
+    font-size: 20px;
+    color:orange;
+    font-style: normal;
+    font-weight: bolder;
+}
+.para2{
+    font-family: "login360";
+    
+
+}
+.para3{
+    font-family: "Arial";
+}
+
+@font-face{
+    font-family: "login360";
+    src: url("slab-tronic/SlabTronic.ttf");
+}
