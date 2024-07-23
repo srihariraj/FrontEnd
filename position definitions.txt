@@ -1,0 +1,37 @@
+
+
+STICKY WORKING:
+content{
+	position: sticky;->content try to stick with parent block
+	top:0px-> the content stick with parent block when it touches the parent block in 0px;
+}
+
+RELATIVE:
+content{
+	position: relative;-> can be moved anywhere relative to "its own content"
+	L R T B-> moves to particular direction in n px units.
+}
+
+ABSOLUTE:
+content{
+	postion:absolute;->can be moved anywhere relative to its "parent block content"
+	L R T B-> moves to particular direction in n px units relative to the parent block.
+}
+
+FIXED:
+content{
+	position:fixed;-> element fixes permanently to the browser screen regardless of scrolling or size
+	L R T B-> moves to particular direction in n px units relative to the parent block.
+
+}
+
+
+
+
+USING RELATIVE AND ABSOLUTE TOGETHER:
+outer box{
+	--relative--
+	inner box{
+		--absolute--
+	}	
+}
