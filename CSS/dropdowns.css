@@ -1,0 +1,46 @@
+
+.contents div:hover .youtube{
+    background-color: tomato ;
+}
+.contents div:hover .gfg{
+    background-color: rgb(0, 131, 15);
+}
+.contents div:hover .onedrive{
+    background-color: rgb(60, 26, 255);
+}
+
+.contents{
+    display:none;
+    position:absolute;
+    margin-bottom:2px;
+    width:inherit;
+    border: 1px solid black;
+}
+.dropdown:hover .contents{
+    display:inline-block;
+}
+
+a{
+    color:rgb(255, 186, 186);
+    text-decoration: none;
+}
+.dropdown{
+    position:relative;
+    width:200px;
+    background-color:gold ;
+}
+@media screen and (max-width:480px){
+    body{background-color: purple;}
+}
+@media screen and (min-width:480px){
+    body{background-color: turquoise;}
+}
+@media screen and (min-width:1440px) and (max-width:2560px){
+    body{
+        background-color: gold;
+        font-size: x-large;
+    }
+}
+.fa-youtube{
+    color:rgb(255, 0, 0);
+}

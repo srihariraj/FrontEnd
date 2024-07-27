@@ -59,3 +59,11 @@ color for header, footer in light grey
 develop website similar to irctc or geeks for geeks
 use all the position properties,
 try to use Flex, Grid and icons.
+
+create a rich look website of your choice, using block level, inline level and inline-block level elements , create reference link for homepage
+contentof homepage: hi programmers: link to navigate to technologies:
+use div blocks
+HTML, CSS, JavaScript
+html.html, css.html, javascript.html lorem2000
+position sticky
+create a box, use overflow methods;

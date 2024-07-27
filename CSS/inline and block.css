@@ -1,0 +1,15 @@
+div{
+    display:inline-block;
+    height: 100px;
+}
+
+
+.box1{
+    background-color:red ;
+}
+.box2{
+    background-color:green;
+}
+.box3{
+    background-color:blue ;
+}
