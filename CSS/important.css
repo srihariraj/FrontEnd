@@ -1,9 +1,11 @@
 h1{
-    font-family: monospace;
+    font-family: "Times New Roman" ; 
 }
+
 h1{
-    font-family: sans-serif !important;
+    font-family: courier ;
 }
+
 h1{
-    font-family: 'Times New Roman', Times, serif;
+   font-family: sans-serif;
 }
