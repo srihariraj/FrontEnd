@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.perspective-container {
+    perspective: 800px; /* Sets the depth of the perspective */
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s ease-out;
+}
+
+.card:hover {
+    transform: skew(90deg); /* Rotates the card on hover */
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hides the back face when turned */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+.card-front {
+    background: #2980b9;
+}
+
+.card-back {
+    background: #e74c3c;
+    transform: rotateY(180deg); /* Rotates the back face 180 degrees */
+}
