@@ -1,3 +1,9 @@
+body{
+     display:flex;
+     flex-direction:row;
+     justify-content: center;
+}
+
 
 .contents div:hover .youtube{
     background-color: tomato ;
@@ -25,6 +31,7 @@ a{
     text-decoration: none;
 }
 .dropdown{
+
     position:relative;
     width:200px;
     background-color:gold ;

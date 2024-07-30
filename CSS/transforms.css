@@ -1,44 +1,100 @@
-
-div{
-	border:1px solid black;
-	width:100px;
-	height:100px;
-	text-align:center;
-	color:white;
-	font-weight:600;
-	text-decoration: underline;
-	margin:2px;
-
-}
-.box1:hover{
-
-	background-color: red;
-	transform:translate(-30px, 5px);
-	transition:transform, 2s;
-}
-.box2:hover{
-	background-color: yellow;
-	transform:rotateX(360deg);
-	transition:transform 5s;
-
-}
-.box3:hover{
-	background-color: green;
-	transform:scale(1.5);
-	transition:transform 2s;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
 }
 
-.box4:hover{
-	background-color: orange;
-	transform: skew(90deg);
-	transition:transform 5s;
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/*.box5 {
-	background-color: blue;
-	transform:skew(30deg,20deg);
-	transition:transform 2s;
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-.box6 {
-	background-color: aquamarine;
-}*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 100, 255,0.4);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.5s ;
+    cursor: pointer;
+    perspective: 1000px;
+    box-shadow: 3px 3px 3px 5px black;
+}
+
+.container *:hover{
+     background-color: rgba(255, 100, 0,1);
+}
+
+/* Scale transformation */
+.box.scale:hover {
+    transform: scale(1.5);
+
+}
+
+/* Rotate transformations */
+.box.rotate:hover {
+    transform: rotate(45deg);
+}
+.box.rotate-x:hover {
+    transform: rotateX(45deg);
+}
+.box.rotate-y:hover {
+    transform: rotateY(45deg);
+}
+.box.rotate-z:hover {
+    transform: rotateZ(45deg);
+}
+
+/* Translate transformations */
+.box.translate:hover {
+    transform: translate(50px, 50px);
+}
+.box.translate-x:hover {
+    transform: translateX(50px);
+}
+.box.translate-y:hover {
+    transform: translateY(50px);
+}
+
+/* Skew transformations */
+.box.skew:hover {
+    transform: skew(20deg, 20deg);
+}
+.box.skew-x:hover {
+    transform: skewX(20deg);
+}
+.box.skew-y:hover {
+    transform: skewY(20deg);
+}
+
+/* Perspective transformation */
+.box.perspective {
+   
+}
+.box.perspective:hover {
+    transform: rotateY(60deg);
+    transform: scale(0.5);
+}
