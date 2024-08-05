@@ -1,0 +1,45 @@
+body{
+	display:flex;
+	flex-direction:column;
+	width: 100vw;
+	height:100vh;
+	align-items:center;
+}
+.head{
+	width:fit-content;
+	text-align: center;
+	background-color: orange;
+}
+.flexcontainer{
+	background-color: black;
+	color:white;
+	position:relative;
+	border-radius:5px;
+}
+.items{
+	background-color: yellow;
+	display:none;
+	text-align:center;
+	border:1px solid black;
+	border-radius:5px;
+
+
+}
+
+.drpdwn .items{
+	background-color: red;
+}
+
+.flexcontainer:hover .items{
+	display:block;
+
+}
+
+.items:hover{
+	background-color: red;
+}
+.items:active{
+	font-size:25px;
+	transition:font-size 0.5s ease;
+}
+

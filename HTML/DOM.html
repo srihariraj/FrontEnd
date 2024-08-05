@@ -5,14 +5,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
-		#h-one{
-			display:none;
+		.divbox{
+			border:2px, solid, black;
+			width:100px;
+			height:100px;
+			margin: 20px;
+			overflow: auto;
+		}
+		div{
+			font-size: 50px;
 		}
 	</style>
 </head>
 <body>
 	<script src="../JS/dom.js"></script>
-	<h1 id="h-one">TEXT 1</h1>
+	<input class="textbox" id="txtbox" type="text">
 	<button id="b1" name="change" onclick="doSomething()">Click me</button>
+
+	<div class="divbox" id="ans"></div>
 </body>
 </html>

@@ -1,0 +1,32 @@
+.backside{
+	width:10em;
+	height:10em;
+	font-size:20px ;
+	font-family: "ananda" ;
+	background-color: lightblue;
+}
+.divbox{
+	
+	width:10em;
+	height:10em;
+	font-size:20px ;
+	font-family: "ananda" ;
+	background-color: rgba(255, 0, 0,0.5);
+	
+
+}
+.divbox:hover{
+	transform:translateY(-3em);
+	
+	transition: transform 3s;
+}
+
+
+@font-face{
+	font-family: "ananda";
+	src: url("AnandaBlackPersonalUseRegular-rg9Rx.ttf");
+}
+
+div{
+	display:inline;
+}

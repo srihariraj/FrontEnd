@@ -38,7 +38,8 @@ h1 {
     color: white;
     font-weight: bold;
     border-radius: 10px;
-    transition: transform 0.5s ;
+    transition:transform 5s ease-in ;
+
     cursor: pointer;
     perspective: 1000px;
     box-shadow: 3px 3px 3px 5px black;
@@ -59,7 +60,7 @@ h1 {
     transform: rotate(45deg);
 }
 .box.rotate-x:hover {
-    transform: rotateX(45deg);
+    transform: rotateX(360deg);
 }
 .box.rotate-y:hover {
     transform: rotateY(45deg);

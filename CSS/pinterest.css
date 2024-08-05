@@ -1,0 +1,16 @@
+div{
+	width:100px;
+	height:100px;
+}
+.imgs{
+	height:100px;
+	width:100px;
+	overflow: hidden;
+}
+
+
+.images:hover{
+	transition: transform 0.5s;
+	transform:scale(1.2);
+
+}

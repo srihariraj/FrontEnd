@@ -1,6 +1,12 @@
 function doSomething(){
-	let x = document.getElementById("h-one");
-	x.innerHTML="<i>Hello</i>";
-	document.getElementById("h-one").style.color='orange';
-	x.style.display='block';
+	let A="";
+	let marks=[89,98,78,89,67,87];
+
+	for( let x in marks){
+		if(x%2==0){
+			A=A+marks[x]+" ";
+		}
+	}
+
+	document.getElementById("ans").innerHTML = A;
 }

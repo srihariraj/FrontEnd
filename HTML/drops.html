@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-Classes Demo</title>
+    <style>
+        /* Structural pseudo-classes */
+        ul li:first-child {
+            color: red;
+        }
+
+        ul li:last-child {
+            color: green;
+        }
+
+        ul li:nth-child(2) {
+            color: blue;
+        }
+
+        ul li:nth-last-child(2) {
+            color: purple;
+        }
+
+        ul li:only-child {
+            font-weight: bold;
+        }
+
+        ul li:first-of-type {
+            background-color: yellow;
+        }
+
+        ul li:last-of-type {
+            background-color: orange;
+        }
+
+        ul li:nth-of-type(2) {
+            background-color: lightblue;
+        }
+
+        ul li:nth-last-of-type(2) {
+            background-color: lightgreen;
+        }
+
+        ul li:only-of-type {
+            font-style: italic;
+        }
+
+        p:empty {
+            border: 1px solid black;
+            height: 20px;
+        }
+
+        /* User action pseudo-classes */
+        button:hover {
+            background-color: lightgray;
+        }
+
+        button:active {
+            background-color: darkgray;
+        }
+
+        input:focus {
+            border-color: blue;
+        }
+
+        input:focus-within {
+            border-color: green;
+        }
+
+        input:focus-visible {
+            outline: 2px solid red;
+        }
+
+        /* Link pseudo-classes */
+        a:link {
+            color: blue;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        /* Form pseudo-classes */
+        input:checked {
+            background-color: yellow;
+        }
+
+        input:disabled {
+            background-color: gray;
+        }
+
+        input:enabled {
+            background-color: white;
+        }
+
+        input:required {
+            border-color: red;
+        }
+
+        input:optional {
+            border-color: green;
+        }
+
+        input:valid {
+            border-color: green;
+        }
+
+        input:invalid {
+            border-color: red;
+        }
+
+        input:in-range {
+            border-color: green;
+        }
+
+        input:out-of-range {
+            border-color: red;
+        }
+
+        input:read-only {
+            background-color: lightgray;
+        }
+
+        input:read-write {
+            background-color: white;
+        }
+
+        /* Language pseudo-class */
+        p:lang(en) {
+            color: blue;
+        }
+
+        p:lang(fr) {
+            color: red;
+        }
+
+        /* Other pseudo-classes */
+        div:not(.example) {
+            background-color: lightyellow;
+        }
+
+        :root {
+            --main-color: coral;
+        }
+
+        body {
+            color: var(--main-color);
+        }
+
+        div:target {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Pseudo-Classes Demo</h1>
+
+    <h2>Structural pseudo-classes</h2>
+    <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+    </ul>
+    <ul>
+        <li>Only Item</li>
+    </ul>
+    <p class="empty"></p>
+
+    <h2>User action pseudo-classes</h2>
+    <button>Hover over me</button>
+    <button>Click me</button>
+    <input type="text" placeholder="Focus on me">
+    <input type="text" placeholder="Focus within this input">
+
+    <h2>Link pseudo-classes</h2>
+    <a href="#link1">Unvisited link</a>
+    <a href="#link2" id="link1">Visited link</a>
+
+    <h2>Form pseudo-classes</h2>
+    <input type="checkbox" checked> Checked checkbox<br>
+    <input type="checkbox" disabled> Disabled checkbox<br>
+    <input type="text" required placeholder="Required input"><br>
+    <input type="text" optional placeholder="Optional input"><br>
+    <input type="text" pattern="\d{3}" title="Three digit number" placeholder="Valid pattern"><br>
+    <input type="number" min="1" max="10" value="5"><br>
+    <input type="number" min="1" max="10" value="15"><br>
+    <input type="text" readonly value="Read-only"><br>
+    <input type="text" placeholder="Read-write">
+
+    <h2>Language pseudo-class</h2>
+    <p lang="en">This is an English paragraph.</p>
+    <p lang="fr">Ceci est un paragraphe en français.</p>
+
+    <h2>Other pseudo-classes</h2>
+    <div class="example">This div has the class "example".</div>
+    <div>This div does not have the class "example".</div>
+    <a href="#target">Go to target</a>
+    <div id="target">This is the target element.</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+div{
+	 box-shadow: 5px 5px 80px -20px black;
+	 width:510px;
+	 height:510px;
+	 height:fit-content;
+	 border:5px, dotted, black;
+	 overflow: hidden;
+	 
+}
+img{
+	width:inherit;
+	height:inherit;
+}
+/*img:hover{
+	display: block;
+	transtion-property: display;
+	transition-duration:3s;
+	transition-timing-function: ease-out;
+	transition-delay: 1s;
+}*/
+img:hover{
+	transform: scale(5);
+	transtion-property: transform;
+	transition-duration:0.8s;
+	transition-timing-function: linear;
+/*	transition-delay: 1s;*/
+}
