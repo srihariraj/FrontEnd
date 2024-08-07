@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>block elements</title>
+    <style>
+      body {
+        background-color: yellow;
+        border-radius: 50px;
+      }
+      .flexbox {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        background-color: orange;
+        height: 200px;
+        width: 200px;
+      }
+      select {
+        width: 100px;
+        height: 40px;
+        border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <select name="items" id="abc">
+        <option value="1">abcde</option>
+        <option value="2">qwerty</option>
+        <option value="3">Hellow</option>
+        <option value="4" selected disabled="disabled">select an option</option>
+      </select>
+    </div>
+  </body>
+</html>

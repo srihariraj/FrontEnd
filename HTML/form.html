@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      form * {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="form1">
+      <label for="text">Name:</label>
+      <input type="text" id="text" name="namesbox" required="true" />
+      <label for="eid">Email:</label>
+      <input type="email" id="eid" name="emailbox" />
+      <label for="passwordbox">Password: </label>
+      <input type="password" id="pswd" name="pass" />
+      <label for="phnumber">Ph. No.: </label>
+
+      <input type="tel" id="phno" name="phnumber" />
+      <label for="numbersbox">numbers: </label>
+      <input type="number" id="nmb" name="numbers" />
+
+      <input type="file" />
+      <button type="button" onclick="displayName()">Click me</button>
+    </form>
+    <div class="display" id="out"></div>
+    <script>
+      function displayName() {
+        var name = document.getElementById("text").value;
+        document.getElementById("out").innerText = "Hi, " + name;
+      }
+    </script>
+  </body>
+</html>
