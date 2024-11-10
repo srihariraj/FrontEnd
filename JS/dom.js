@@ -8,5 +8,7 @@ function doSomething(){
 		}
 	}
 
-	document.getElementById("ans").innerHTML = A;
+	console.log("Hello")
 }
+
+doSomething();
