@@ -53,4 +53,3 @@ use div blocks
 HTML, CSS, JavaScript
 html.html, css.html, javascript.html lorem2000
 position sticky
-create a box, use overflow methods;
